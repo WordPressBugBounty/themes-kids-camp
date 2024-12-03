@@ -2,7 +2,7 @@
 Contributors: catchthemes
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, custom-logo, editor-style, full-width-template,  featured-image-header, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, wide-blocks, block-styles, blog, education, portfolio
 Requires at least: 5.6
-Tested up to: 6.5
+Tested up to: 6.7
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -40,6 +40,10 @@ You can check our Theme Demo at https://catchthemes.com/demo/kids-camp/
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
+
+= 1.2.5 (Released: December 03, 2024) =
+* Removed: Old unnecessary file
+* Updated: WordPress 6.7 ready
 
 = 1.2.4 (Released: June 13, 2024) =
 * Updated: WordPress 6.5 ready

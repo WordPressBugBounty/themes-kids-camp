@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kids Camp\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2024-06-13 17:29+0545\n"
+"POT-Creation-Date: 2024-12-03 21:05+0545\n"
 "PO-Revision-Date: 2016-12-07 00:45-0500\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;"
 "_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;"
 "__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
@@ -56,110 +56,110 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: ../functions.php:119 ../template-parts/navigation/navigation-primary.php:20
+#: ../functions.php:112 ../template-parts/navigation/navigation-primary.php:20
 #: ../template-parts/navigation/navigation-primary.php:28
 msgid "Primary Menu"
 msgstr ""
 
-#: ../functions.php:120
+#: ../functions.php:113
 msgid "Social Menu at Left Side Above Primary Menu"
 msgstr ""
 
-#: ../functions.php:177
+#: ../functions.php:170
 msgid "Small"
 msgstr ""
 
-#: ../functions.php:178
+#: ../functions.php:171
 msgid "S"
 msgstr ""
 
-#: ../functions.php:183
+#: ../functions.php:176
 msgid "Normal"
 msgstr ""
 
-#: ../functions.php:184
+#: ../functions.php:177
 msgid "M"
 msgstr ""
 
-#: ../functions.php:189
+#: ../functions.php:182
 msgid "Large"
 msgstr ""
 
-#: ../functions.php:190
+#: ../functions.php:183
 msgid "L"
 msgstr ""
 
-#: ../functions.php:195
+#: ../functions.php:188
 msgid "Huge"
 msgstr ""
 
-#: ../functions.php:196
+#: ../functions.php:189
 msgid "XL"
 msgstr ""
 
-#: ../functions.php:206
+#: ../functions.php:199
 msgid "White"
 msgstr ""
 
-#: ../functions.php:211
+#: ../functions.php:204
 msgid "Black"
 msgstr ""
 
-#: ../functions.php:216
+#: ../functions.php:209
 msgid "Gray"
 msgstr ""
 
-#: ../functions.php:221
+#: ../functions.php:214
 msgid "yellow"
 msgstr ""
 
-#: ../functions.php:274
+#: ../functions.php:267
 msgid "Sidebar"
 msgstr ""
 
-#: ../functions.php:276
+#: ../functions.php:269
 msgid "Add widgets here to appear in your sidebar."
 msgstr ""
 
-#: ../functions.php:284
+#: ../functions.php:277
 msgid "Footer 1"
 msgstr ""
 
-#: ../functions.php:286 ../functions.php:296 ../functions.php:306
+#: ../functions.php:279 ../functions.php:289 ../functions.php:299
 msgid "Add widgets here to appear in your footer."
 msgstr ""
 
-#: ../functions.php:294
+#: ../functions.php:287
 msgid "Footer 2"
 msgstr ""
 
-#: ../functions.php:304
+#: ../functions.php:297
 msgid "Footer 3"
 msgstr ""
 
-#: ../functions.php:314
+#: ../functions.php:307
 msgid "Instagram"
 msgstr ""
 
-#: ../functions.php:316
+#: ../functions.php:309
 msgid "Appears above footer. This sidebar is only for Instagram Feed Gallery\n"
 msgstr ""
 
-#: ../functions.php:381
+#: ../functions.php:374
 msgctxt "Noto Serif: on or off"
 msgid "on"
 msgstr ""
 
-#: ../functions.php:387
+#: ../functions.php:380
 msgctxt "Amatic SC: on or off"
 msgid "on"
 msgstr ""
 
-#: ../functions.php:469
+#: ../functions.php:462
 msgid "expand child menu"
 msgstr ""
 
-#: ../functions.php:470
+#: ../functions.php:463
 msgid "collapse child menu"
 msgstr ""
 
@@ -308,13 +308,6 @@ msgstr ""
 
 #: ../inc/about.php:217
 msgid "Install Plugin"
-msgstr ""
-
-#: ../inc/back-compat.php:40 ../inc/back-compat.php:53 ../inc/back-compat.php:71
-#, php-format
-msgid ""
-"Kids Camp requires at least WordPress version 4.4. You are running version %s. "
-"Please upgrade and try again."
 msgstr ""
 
 #: ../inc/class-tgm-plugin-activation.php:327

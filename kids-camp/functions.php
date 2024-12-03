@@ -23,13 +23,6 @@
  * @package Kids_Camp
  */
 
-/**
- * Kids Camp only works in WordPress 4.4 or later.
- */
-if ( version_compare( $GLOBALS['wp_version'], '4.4-alpha', '<' ) ) {
-	require trailingslashit( get_template_directory() ) . 'inc/back-compat.php';
-}
-
 if ( ! function_exists( 'kids_camp_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
