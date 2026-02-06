@@ -4,10 +4,10 @@ Theme Name: Kids Camp
 Theme URI: https://catchthemes.com/themes/kids-camp/
 Author: Catch Themes
 Author URI: https://catchthemes.com/
-Description: Kids Camp is a free Kids and Children WordPress theme that’s perfect for kids’ education agencies. The theme is responsive, attractive and built with modern tools. You can use the theme for Montessori Schools, Day Care Centers, Learning Blog, and other Kids Academic Institutes. If you need a colorful and fun website for different educational purposes, Kids Camp fits the bill. Its vibrant and fun layout allows you to keep your website simple and uncluttered. With the vast features available in Kids Camp, you’ll be able to create a colorful, fun-looking, pleasant, and enjoyable kids website quickly. It comes with high-quality features like Featured Content, Featured Slider, Header Media, Hero Content, Portfolio, Services, Testimonials, and many more. In addition to its features, Kids Camp is Translation Ready. The theme is extremely responsive and your kids related site will look appealing on all screen sizes. For any technical issue, please post in our support forum at https://catchthemes.com/support/ For more information, check out Theme Instructions at https://catchthemes.com/themes/kids-camp/#theme-instructions and Demo at https://catchthemes.com/demo/kids-camp/
-Version: 1.2.5
-Requires at least: 5.6
-Tested up to: 6.7
+Description: Kids Camp is a free Kids and Children WordPress theme thatΓÇÖs perfect for kidsΓÇÖ education agencies. The theme is responsive, attractive and built with modern tools. You can use the theme for Montessori Schools, Day Care Centers, Learning Blog, and other Kids Academic Institutes. If you need a colorful and fun website for different educational purposes, Kids Camp fits the bill. Its vibrant and fun layout allows you to keep your website simple and uncluttered. With the vast features available in Kids Camp, youΓÇÖll be able to create a colorful, fun-looking, pleasant, and enjoyable kids website quickly. It comes with high-quality features like Featured Content, Featured Slider, Header Media, Hero Content, Portfolio, Services, Testimonials, and many more. In addition to its features, Kids Camp is Translation Ready. The theme is extremely responsive and your kids related site will look appealing on all screen sizes. For any technical issue, please post in our support forum at https://catchthemes.com/support/ For more information, check out Theme Instructions at https://catchthemes.com/themes/kids-camp/#theme-instructions and Demo at https://catchthemes.com/demo/kids-camp/
+Version: 2.0.1
+Requires at least: 5.9
+Tested up to: 6.9
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -3479,9 +3479,17 @@ body .section {
   margin: 0 auto; }
 
 #promotion-section .entry-container-frame .section-subtitle {
-  font-size: 130px;
-  font-size: 8.125rem;
+  font-size: 70px;
+  font-size: 4.375rem;
   line-height: 1; }
+
+#promotion-section.content-frame .entry-container-frame .section-subtitle {
+  font-size: 60px;
+  font-size: 3.75rem; }
+
+#promotion-section .entry-content > p,
+#promotion-section .entry-summary > p {
+  display: none; }
 
 #promotion-section .entry-container-frame .section-title-wrapper {
   font-size: 46px;
@@ -3489,6 +3497,17 @@ body .section {
 
 #promotion-section .entry-container-frame .entry-header {
   display: inline-block; }
+
+#promotion-section .entry-container {
+  display: flex; }
+
+#promotion-section .entry-container-frame {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  overflow: hidden; }
 
 /**    14.6 - Others
 */
@@ -7173,7 +7192,8 @@ dl.variation p {
     margin: 0; }
 
   .site-header-right-wrapper {
-    display: flex; }
+    display: flex;
+    align-items: center; }
 
   .social-navigation + .site-branding + .site-header-right-wrapper {
     display: block;
@@ -7282,7 +7302,15 @@ dl.variation p {
     padding-bottom: 42px; }
 
   .site-navigation .top-menu li:hover > ul .sub-menu {
-    top: 0px; } }
+    top: 0px; }
+
+  #promotion-section .entry-content p,
+  #promotion-section .entry-summary p {
+    display: block; }
+
+  #promotion-section .entry-container-frame .section-subtitle {
+    font-size: 90px;
+    font-size: 5.625rem; } }
 /**    15.5 - >= 1120px
 */
 @media screen and (min-width: 70em) {
@@ -7698,7 +7726,12 @@ dl.variation p {
   .boxed-layout #featured-content-section:after,
   .boxed-layout #team-content-section:after,
   .boxed-layout .why-choose-us-section:after {
-    bottom: -90px; } }
+    bottom: -90px; }
+
+  #promotion-section .entry-container-frame .section-subtitle,
+  #promotion-section.content-frame .entry-container-frame .section-subtitle {
+    font-size: 110px;
+    font-size: 6.875rem; } }
 /**    15.8 - >= 1600px
 */
 @media screen and (min-width: 120em) {
@@ -7706,7 +7739,12 @@ dl.variation p {
   #featured-content-section:after,
   #team-content-section:after,
   .why-choose-us-section:after {
-    bottom: -114px; } }
+    bottom: -114px; }
+
+  #promotion-section .entry-container-frame .section-subtitle,
+  #promotion-section.content-frame .entry-container-frame .section-subtitle {
+    font-size: 130px;
+    font-size: 8.125rem; } }
 /**
  * 16.0  - >= Colors
  */
@@ -8267,12 +8305,16 @@ ul.products li.product a:focus .woocommerce-loop-product__title,
 .header-top-bar .site-navigation .current_page_item > a,
 #featured-content-section .more-link,
 .more-button,
+.post-navigation a:hover .nav-title,
+.post-navigation a:focus .nav-title,
 #search-toggle-main .icon:hover,
 #search-toggle-main .icon:focus,
 .widget-area .essential-widgets .tagcloud a:hover,
 .widget-area .essential-widgets .tagcloud a:focus,
 .widget-area .essential-widgets .tagcloud.rounded-corners a:hover,
-.widget-area .essential-widgets .tagcloud.rounded-corners a:focus {
+.widget-area .essential-widgets .tagcloud.rounded-corners a:focus,
+#promotion-section.content-color-white .entry-title a:hover,
+#promotion-section.content-color-white .entry-title a:focus {
   color: #ed3f27; }
 
 .no-comments,
@@ -8397,6 +8439,7 @@ body:not(.home) .header-media,
   background-color: rgba(17, 17, 17, 0.93); }
 
 /* Text color with background */
+#promotion-section.content-color-white .section-subtitle,
 #promotion-section.content-color-white .entry-title,
 #promotion-section.content-color-white .entry-title a,
 #promotion-section.content-color-white .entry-container,
@@ -8550,5 +8593,3 @@ table.cart .product-thumbnail img,
 
 #promotion-section.content-frame .entry-container-frame {
   border-color: #cbe6f2; }
-
-/*# sourceMappingURL=style.css.map */

@@ -4,10 +4,10 @@ body {
 	/* Fallback for when there is no custom background color defined. */
 }
 
- /* Header Text Color */
+/* Header Text Color */
 .site-title a {
- 	color: $header-text-color;
- }
+	color: $header-text-color;
+}
 
 /* Page Background Color */
 #page,
@@ -15,7 +15,7 @@ body {
 #footer-newsletter .has-background-image .widget-inner-wrap,
 .section-title-wrapper:after,
 .catch-instagram-feed-gallery-widget-wrapper .button,
-#clock > .count-down > span,
+#clock>.count-down>span,
 body.absolute-header .site-header,
 .absolute-header.menu-is-on #header-navigation-area,
 .testimonial-content-section .hentry-inner,
@@ -30,6 +30,7 @@ input[type="search"] {
 }
 
 @media screen and (min-width: 64em) {
+
 	#site-product-search,
 	#site-cart-contents-items,
 	#header-menu-social,
@@ -79,6 +80,7 @@ pre,
 }
 
 @media screen and (min-width: 64em) {
+
 	.site-secondary-menu ul ul:before,
 	#header-menu-social.toggled-on:before {
 		border-color: $secondary-background-color transparent;
@@ -105,20 +107,21 @@ pre,
 
 /* Secondary Background Color Woocommerce */
 @media screen and (min-width: 48em) {
+
 	table.shop_table .cart-subtotal th,
 	table.shop_table .order-total th {
-	    background-color: $secondary-background-color-woocommerce;
+		background-color: $secondary-background-color-woocommerce;
 	}
 }
 
 @media screen and (min-width: 64em) {
 	.site-header-cart .widget_shopping_cart {
-	    background-color: $secondary-background-color-woocommerce;
+		background-color: $secondary-background-color-woocommerce;
 	}
 }
 
 .product-review-section .entry-container:after {
-    border-color: $secondary-background-color-woocommerce transparent;
+	border-color: $secondary-background-color-woocommerce transparent;
 }
 
 /* 40% of Secondary Background Color */
@@ -416,8 +419,8 @@ input[type="submit"]:focus,
 
 /* Link Color */
 a,
-.site-navigation .current-menu-item > a,
-.site-navigation .current_page_item > a,
+.site-navigation .current-menu-item>a,
+.site-navigation .current_page_item>a,
 .menu-toggle,
 .dropdown-toggle,
 .search-submit,
@@ -590,16 +593,20 @@ ul.products li.product a:focus .woocommerce-loop-product__title,
 .header-top-bar .dropdown-toggle,
 .header-top-bar a:hover,
 .header-top-bar a:focus,
-.header-top-bar .site-navigation .current-menu-item > a,
-.header-top-bar .site-navigation .current_page_item > a,
+.header-top-bar .site-navigation .current-menu-item>a,
+.header-top-bar .site-navigation .current_page_item>a,
 #featured-content-section .more-link,
 .more-button,
+.post-navigation a:hover .nav-title,
+.post-navigation a:focus .nav-title,
 #search-toggle-main .icon:hover,
 #search-toggle-main .icon:focus,
 .widget-area .essential-widgets .tagcloud a:hover,
 .widget-area .essential-widgets .tagcloud a:focus,
 .widget-area .essential-widgets .tagcloud.rounded-corners a:hover,
-.widget-area .essential-widgets .tagcloud.rounded-corners a:focus {
+.widget-area .essential-widgets .tagcloud.rounded-corners a:focus,
+#promotion-section.content-color-white .entry-title a:hover,
+#promotion-section.content-color-white .entry-title a:focus {
 	color: $link-hover-color;
 }
 
@@ -671,7 +678,7 @@ h4,
 h5,
 h6,
 .drop-cap::first-letter,
-.page-links > .page-links-title,
+.page-links>.page-links-title,
 #reply-title,
 .entry-title a,
 ins .amount,
@@ -736,6 +743,7 @@ body:not(.home) .header-media,
 }
 
 /* Text color with background */
+#promotion-section.content-color-white .section-subtitle,
 #promotion-section.content-color-white .entry-title,
 #promotion-section.content-color-white .entry-title a,
 #promotion-section.content-color-white .entry-container,
@@ -752,7 +760,7 @@ body:not(.home) .header-media .custom-header-content .entry-title,
 #feature-slider-section .entry-header .entry-meta a,
 .home .header-media .custom-header-content .sub-title,
 .custom-header-content.text-aligned-center .entry-container p,
-.custom-header-content.text-aligned-center .entry-container .entry-title, 
+.custom-header-content.text-aligned-center .entry-container .entry-title,
 .custom-header-content.text-aligned-center .entry-container .entry-title a {
 	color: $text-color-with-background;
 }
@@ -784,7 +792,7 @@ textarea,
 .site-footer-menu,
 .section-content-wrapper .post-wrapper,
 .page-links a,
-.page-links > span,
+.page-links>span,
 .comment-list article,
 .comment-list .pingback,
 .comment-list .trackback,
@@ -800,6 +808,7 @@ body:not(.absolute-header) #header-navigation-area,
 }
 
 @media screen and (min-width: 64em) {
+
 	.site-secondary-menu ul ul,
 	#header-menu-social.toggled-on,
 	.primary-search-wrapper .social-navigation,

@@ -196,6 +196,7 @@ function kids_camp_social_links_icons() {
 		'tumblr.com'      => 'tumblr',
 		'twitch.tv'       => 'twitch',
 		'twitter.com'     => 'twitter',
+		'x.com'           => 'x-twitter',
 		'vimeo.com'       => 'vimeo',
 		'vine.co'         => 'vine',
 		'vk.com'          => 'vk',
@@ -203,6 +204,11 @@ function kids_camp_social_links_icons() {
 		'wordpress.com'   => 'wordpress',
 		'yelp.com'        => 'yelp',
 		'youtube.com'     => 'youtube',
+		'tiktok.com'      => 'tiktok',
+		'bsky.app'        => 'bluesky',
+		'threads.com'     => 'threads',
+		'tel:'            => 'phone',
+		'/feed'           => 'rss',
 	);
 
 	/**

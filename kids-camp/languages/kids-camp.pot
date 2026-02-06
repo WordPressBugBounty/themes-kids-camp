@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kids Camp\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2024-12-03 21:05+0545\n"
+"POT-Creation-Date: 2025-12-16 16:20+0545\n"
 "PO-Revision-Date: 2016-12-07 00:45-0500\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
@@ -14,10 +14,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.5\n"
-"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;"
-"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;"
-"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
 "X-Textdomain-Support: yes\n"
@@ -56,110 +55,110 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: ../functions.php:112 ../template-parts/navigation/navigation-primary.php:20
+#: ../functions.php:114 ../template-parts/navigation/navigation-primary.php:20
 #: ../template-parts/navigation/navigation-primary.php:28
 msgid "Primary Menu"
 msgstr ""
 
-#: ../functions.php:113
+#: ../functions.php:115
 msgid "Social Menu at Left Side Above Primary Menu"
 msgstr ""
 
-#: ../functions.php:170
+#: ../functions.php:172
 msgid "Small"
 msgstr ""
 
-#: ../functions.php:171
+#: ../functions.php:173
 msgid "S"
 msgstr ""
 
-#: ../functions.php:176
+#: ../functions.php:178
 msgid "Normal"
 msgstr ""
 
-#: ../functions.php:177
+#: ../functions.php:179
 msgid "M"
 msgstr ""
 
-#: ../functions.php:182
+#: ../functions.php:184
 msgid "Large"
 msgstr ""
 
-#: ../functions.php:183
+#: ../functions.php:185
 msgid "L"
 msgstr ""
 
-#: ../functions.php:188
+#: ../functions.php:190
 msgid "Huge"
 msgstr ""
 
-#: ../functions.php:189
+#: ../functions.php:191
 msgid "XL"
 msgstr ""
 
-#: ../functions.php:199
+#: ../functions.php:201
 msgid "White"
 msgstr ""
 
-#: ../functions.php:204
+#: ../functions.php:206
 msgid "Black"
 msgstr ""
 
-#: ../functions.php:209
+#: ../functions.php:211
 msgid "Gray"
 msgstr ""
 
-#: ../functions.php:214
+#: ../functions.php:216
 msgid "yellow"
 msgstr ""
 
-#: ../functions.php:267
+#: ../functions.php:272
 msgid "Sidebar"
 msgstr ""
 
-#: ../functions.php:269
+#: ../functions.php:274
 msgid "Add widgets here to appear in your sidebar."
 msgstr ""
 
-#: ../functions.php:277
+#: ../functions.php:282
 msgid "Footer 1"
 msgstr ""
 
-#: ../functions.php:279 ../functions.php:289 ../functions.php:299
+#: ../functions.php:284 ../functions.php:294 ../functions.php:304
 msgid "Add widgets here to appear in your footer."
 msgstr ""
 
-#: ../functions.php:287
+#: ../functions.php:292
 msgid "Footer 2"
 msgstr ""
 
-#: ../functions.php:297
+#: ../functions.php:302
 msgid "Footer 3"
 msgstr ""
 
-#: ../functions.php:307
+#: ../functions.php:312
 msgid "Instagram"
 msgstr ""
 
-#: ../functions.php:309
+#: ../functions.php:314
 msgid "Appears above footer. This sidebar is only for Instagram Feed Gallery\n"
 msgstr ""
 
-#: ../functions.php:374
+#: ../functions.php:380
 msgctxt "Noto Serif: on or off"
 msgid "on"
 msgstr ""
 
-#: ../functions.php:380
+#: ../functions.php:386
 msgctxt "Amatic SC: on or off"
 msgid "on"
 msgstr ""
 
-#: ../functions.php:462
+#: ../functions.php:467
 msgid "expand child menu"
 msgstr ""
 
-#: ../functions.php:463
+#: ../functions.php:468
 msgid "collapse child menu"
 msgstr ""
 

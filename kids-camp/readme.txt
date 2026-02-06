@@ -1,8 +1,8 @@
 === Kids Camp ===
 Contributors: catchthemes
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, custom-logo, editor-style, full-width-template,  featured-image-header, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, wide-blocks, block-styles, blog, education, portfolio
-Requires at least: 5.6
-Tested up to: 6.7
+Requires at least: 5.9
+Tested up to: 6.9
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -40,6 +40,16 @@ You can check our Theme Demo at https://catchthemes.com/demo/kids-camp/
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
+
+= 2.0.1 (Released: December 16, 2025) =
+* Bug Fixed: Deprecated Function WP_Dependencies-add_data() warning after WordPress update 6.9
+* Updated: WordPress 6.9 ready
+
+= 2.0 (Released: June 02, 2025) =
+* Added: Twitter X, TikTok, Phone, Bluesky, and Threads icons
+* Bug Fixed: Added color to nav title when post-navigation nav-links are hovered
+* Updated: About admin CSS for changelog display
+* Updated: WordPress 6.8 ready
 
 = 1.2.5 (Released: December 03, 2024) =
 * Removed: Old unnecessary file

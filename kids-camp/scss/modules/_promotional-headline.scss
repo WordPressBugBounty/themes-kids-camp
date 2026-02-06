@@ -97,9 +97,19 @@
  }
 
 #promotion-section .entry-container-frame .section-subtitle {
- 	font-size: 130px;
- 	font-size: 8.125rem;
+ 	font-size: 70px;
+ 	font-size: 4.375rem;
     line-height: 1;
+}
+
+#promotion-section.content-frame .entry-container-frame .section-subtitle {
+	font-size: 60px;
+	font-size: 3.75rem;
+}
+
+#promotion-section .entry-content > p ,
+#promotion-section .entry-summary > p {
+	display: none;
 }
 
 #promotion-section .entry-container-frame .section-title-wrapper {
@@ -109,4 +119,17 @@
 
 #promotion-section .entry-container-frame .entry-header {
 	display: inline-block;
+}
+
+#promotion-section .entry-container {
+	display: flex;
+}
+
+#promotion-section .entry-container-frame {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	overflow: hidden;
 }
